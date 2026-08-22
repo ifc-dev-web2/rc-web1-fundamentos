@@ -1,0 +1,75 @@
+
+
+main {
+    max-width: 960px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+section > header {
+    margin-bottom: 25px;
+    text-align:center;
+}
+
+section > header h3 {
+    color: #173b82;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    font-size: 32px;
+}
+
+main > section {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+/* css para minha figure */
+
+.imagem-publicacao {
+    margin: 20px 0;
+}
+
+.imagem-publicacao img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.imagem-publicacao figcaption {
+    background-color: #eee;
+    color: #666;
+    font-size: 0.9em;
+    padding: 10px;
+    text-align: center;
+}
+
+article img {
+    width: 100%;
+    margin: 15px 0;
+}
+
+article p {
+    line-height: 1.6;
+}
+
+.categoria {
+    color: #3169d8;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.subtitulo {
+    color: #666;
+    font-size: 18px;
+}
+
+article footer {
+    border-top: 1px solid #ddd;
+    color: #666;
+    font-size: 14px;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+
