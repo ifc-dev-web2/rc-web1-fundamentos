@@ -9,7 +9,6 @@ strong {
     font-weight: bold;
 }
 
-
 body>header {
     background-color: #173b82;
     color: #fff;
@@ -24,6 +23,8 @@ body>header>h1 {
 
 body>header>p {
     padding: 10px;
+    color: yellow;
+    font-size: 1em;
 }
 
 /* criando estilos para o meu menu */
@@ -54,4 +55,9 @@ body>footer {
     color: #fff;
     padding: 20px;
     text-align: center;
+}
+
+body > footer > p {
+    line-height: 1.8;
+    color: #fff;
 }

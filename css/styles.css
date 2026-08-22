@@ -19,8 +19,6 @@ section > header h3 {
 }
 
 main > section {
-    border: 1px solid #ddd;
-    border-radius: 10px;
     margin: 10px;
 }
 
@@ -44,6 +42,23 @@ main > section {
     text-align: center;
 }
 
+article {
+    background-color: white;
+    margin-bottom: 25px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(204, 204, 204);
+    border-radius: 10px;
+    border-image: none;
+    padding: 25px;
+}
+
+article h3 {
+    color: rgb(23, 59, 130);
+    font-size: 25px;
+    margin-top: 5px;
+}
+
 article img {
     width: 100%;
     margin: 15px 0;
@@ -60,7 +75,7 @@ article p {
 }
 
 .subtitulo {
-    color: #666;
+    color: rgb(102, 102, 102);
     font-size: 18px;
 }
 
