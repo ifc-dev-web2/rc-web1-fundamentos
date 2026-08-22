@@ -5,6 +5,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+strong {
+    font-weight: bold;
+}
+
+
 body>header {
     background-color: #173b82;
     color: #fff;
