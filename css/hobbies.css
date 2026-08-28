@@ -1,0 +1,92 @@
+/*
+
+*/
+* {
+ box-sizing: border-box; 
+}
+
+.container {
+    width: 90%; /* largura da minha janela */
+    max-width: 1200px; /* máximo de largura que suporta para exibir o conteudo */
+    margin: 0 auto; /* centralizar o conteudo no meio da página */
+    padding: 2rem 0; /* margens no interior da página */
+}
+
+.introducao-hobbies {
+    margin-bottom: 2rem; /* margem inferior */
+    text-align: center; /* centralizar o texto */
+}
+
+.introducao-hobbies h2 {
+    margin-bottom: .75rem; /* margem inferior */
+    font-size: 2rem; /* tamanho da fonte */
+}
+
+.introducao-hobbies p {
+    max-width: 700px;  /* largura máxima permitida para esse conteudo */
+    margin: 0 auto; /* centralizar o conteudo */
+    line-height: 1.6; /*espaçamento entre as linhas*/
+}
+
+/* todo o conteudo do meu card */
+.titulo-galeria {
+    flex-basis: 100%;
+    margin-bottom: .5rem;
+    font-size: 1.5rem;
+}
+
+/* 
+    é o card que acabamos de fazer ele identificar que todos os elementos 
+    filhos irão quebrar conforme o dispositivo for menor que a capacidade da largura
+*/
+.galeria-hobbies {
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: stretch;
+}
+
+.cartao-hobby {
+    flex: 1 1 280px; /*informando qual é o padrão de orientação dos meus cards */
+    overflow: hidden;
+    border: 1px solid #d8d8d8;
+    border-radius: .75rem;
+    background-color: #fff;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.812);
+}
+
+.cartao-hobby img {
+    display: block; 
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.cartao-hobby figcaption {
+    padding: .5rem 1rem;
+    background-color: #f1f1f1;
+    color: #555;
+    font-size: .875rem;
+}
+
+.conteudo-cartao {
+    padding: 1.25rem;
+}
+
+.conteudo-cartao h3{
+    margin-bottom: .75rem;
+    font-size: 1.4rem;
+}
+
+.conteudo-cartao p {
+    line-height: 1.6;
+}
+
+.data-publicacao {
+    margin-top: 1rem;
+    color: #666;
+    font-size: .875rem;
+}
+
+
+
