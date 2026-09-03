@@ -586,8 +586,3 @@ Como proteger redes contra acessos não autorizados
 Grid. Entretanto, nesta etapa, o mais importante é consolidar a estrutura
 semântica, a organização dos arquivos, o uso de imagens fluidas e a leitura do
 modelo de caixas.
-
-✅ Concluído
-🚧 Em andamento
-⏳ Pendente
-📅 Feriado

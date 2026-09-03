@@ -394,6 +394,7 @@ O princípio adotado na disciplina será:
 
 > Primeiro compreender os fundamentos; depois utilizar a Inteligência Artificial para ampliar a produtividade.
 
+
 ## Como utilizar este repositório
 
 Cada estudante deverá criar uma cópia deste repositório em sua própria conta do GitHub por meio de um **fork**. Depois disso, deverá clonar o próprio fork para o computador.
@@ -461,6 +462,37 @@ git push origin main
 
 A mensagem do commit deverá descrever de maneira breve e objetiva a alteração realizada.
 
+
+## 🧹 Padronização e formatação do código
+
+A partir deste projeto, utilizaremos uma configuração compartilhada de
+formatação para manter o código organizado e consistente entre todos os
+participantes.
+
+As regras do projeto definem:
+
+- indentação com dois espaços;
+- utilização de espaços em vez de tabulações;
+- formatação automática com Prettier;
+- largura preferencial de 80 caracteres;
+- atributos HTML organizados em linhas separadas;
+- visualização de espaços e níveis de indentação;
+- padronização das quebras de linha;
+- extensões recomendadas para o VS Code.
+
+Ao abrir o projeto, verifique as extensões recomendadas pelo editor e instale-as
+antes de iniciar o desenvolvimento.
+
+> As configurações pessoais do editor podem continuar sendo utilizadas para
+> aspectos visuais. Entretanto, as regras de formatação versionadas no
+> repositório devem ser respeitadas por todos.
+
+Para compreender a configuração, a função de cada arquivo e o fluxo de
+desenvolvimento adotado, consulte:
+
+📖 [Guia de padronização do código](./docs/guia-padronizacao-codigo.md)
+---
+
 ### Repositório original e fork
 
 | Repositório                        | Responsabilidade                                                                      |
@@ -471,6 +503,41 @@ A mensagem do commit deverá descrever de maneira breve e objetiva a alteração
 O estudante deve confirmar, antes de iniciar uma atividade, que está trabalhando no fork de sua própria conta.
 
 Durante a disciplina, consulte as pastas e os arquivos indicados pelo professor para cada aula. Os exemplos são materiais de estudo e devem ser lidos, executados, modificados e testados.
+
+
+## Estrutura do Projeto
+
+```text
+portal-noticias/
+├── .vscode/
+│   ├── extensions.json
+│   └── settings.json
+│
+├── css/
+│   ├── global.css
+│   ├── hobbies.css
+│   └── perfil.css
+│
+├── docs/
+│   ├── aulas/
+│   │   ├── 01-index.md
+│   │   └── 02-hobbies.md
+│   └── guia-padronizacao-codigo.md
+│
+├── img/
+│
+├── .editorconfig
+├── .gitignore
+├── .prettierignore
+├── .prettierrc.json
+├── hobbies.html
+├── index.html
+├── perfil.html
+├── LICENSE
+└── README.md
+```
+
+---
 
 ## Orientações para as entregas
 
