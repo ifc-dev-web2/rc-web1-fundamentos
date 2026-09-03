@@ -1,0 +1,52 @@
+# Dependências do Node.js
+node_modules/
+
+# Arquivos gerados por ferramentas de build
+dist/
+build/
+coverage/
+.cache/
+.parcel-cache/
+.vite/
+
+# Variáveis de ambiente e configurações locais
+.env
+.env.*
+!.env.example
+*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Sistemas operacionais
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editores e IDEs
+.idea/
+.vscode/
+*.code-workspace
+*.swp
+*.swo
+
+# Arquivos temporários e cópias de segurança
+*.tmp
+*.temp
+*.bak
+*~
+
+# Relatórios e arquivos de teste
+.nyc_output/
+playwright-report/
+test-results/
+
+# Arquivos compactados gerados localmente
+*.zip
+*.tar
+*.tar.gz
