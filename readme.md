@@ -1,589 +1,531 @@
-# Portal de Notícias
+# Desenvolvimento Web I — Fundamentos
 
-Projeto didático desenvolvido na disciplina de **Desenvolvimento Web I**, do curso de Redes de Computadores do **IFC — Campus Araquari**.
+Repositório acadêmico da disciplina **Desenvolvimento Web I**, ofertada para o curso de **Tecnologia em Redes de Computadores** do **Instituto Federal Catarinense — Campus Araquari**.
 
-## Cronograma da disciplina
+Este espaço reúne exemplos, materiais, atividades, projetos e registros utilizados durante as aulas. O conteúdo acompanha a evolução da turma desde os fundamentos de HTML e CSS até a introdução à programação com JavaScript.
 
-| Aula | Data | Conteúdo previsto | Status |
-| :---: | :---: | --- | :---: |
-| — | 07/08/2026 | Recesso acadêmico | ✅ Concluído |
-| 1 | 14/08/2026 | Apresentação da disciplina, diagnóstico da turma, introdução ao desenvolvimento Web, estrutura básica do HTML, introdução ao CSS, Git, GitHub e publicação pelo GitHub Pages. | ✅ Concluído |
-| 2 | 21/08/2026 | HTML semântico, elementos `header`, `nav`, `main`, `section`, `article`, `figure`, `figcaption`, `time` e `footer`; criação de páginas, menu de navegação e links internos. | ✅ Concluído |
-| 3 | 28/08/2026 | Elementos em bloco e inline; utilização de `div` e `span`; introdução ao Flexbox; medidas absolutas e relativas; containers; imagens adaptáveis e construção da página de Hobbies. | ✅ Concluído |
-| 4 | 04/09/2026 | Responsividade, configuração do viewport, adaptação natural do layout, breakpoints, media queries e reorganização do portal para diferentes tamanhos de tela. | ⏳ Pendente |
-| 5 | 11/09/2026 | Prática orientada de responsividade; correção do portal; adaptação do menu, perfil, cartões e imagens; identificação de overflow e utilização do DevTools. | ⏳ Pendente |
-| 6 | 18/09/2026 | Formulários HTML; elementos `form`, `label`, `input`, `textarea`, `select` e `button`; tipos de campos, atributos e validações nativas. | ⏳ Pendente |
-| 7 | 25/09/2026 | Revisão de HTML semântico, formulários, CSS, box model, Flexbox, medidas relativas, responsividade, organização de arquivos e publicação Web. | ⏳ Pendente |
-| 8 | 02/10/2026 | **N1 — Avaliação individual, teórica e/ou prática, envolvendo HTML, CSS, semântica, formulários, Flexbox e responsividade.** | ⏳ Pendente |
-| 9 | 09/10/2026 | Correção comentada da avaliação N1; identificação dos erros recorrentes; retomada dos conteúdos e atividade prática de reforço. | ⏳ Pendente |
-| 10 | 16/10/2026 | **N2 — Entrega e apresentação do projeto Web individual de tema livre, com HTML semântico, CSS, Flexbox, responsividade, formulário, versionamento, documentação e publicação no GitHub Pages.** | ⏳ Pendente |
-| 11 | 23/10/2026 | Devolutiva do projeto individual; correção orientada; retomada dos conteúdos de HTML e CSS e aperfeiçoamento das soluções desenvolvidas. | ⏳ Pendente |
-| 12 | 30/10/2026 | Finalização do primeiro ciclo; revisão dos projetos; devolutiva das avaliações; apresentação dos resultados e preparação para a introdução ao JavaScript. | ⏳ Pendente |
-| 13 | 06/11/2026 | Introdução ao JavaScript; relação entre HTML, CSS e JavaScript; inclusão de scripts; console; `alert()`, `prompt()`, variáveis com `let` e `const` e primeiros comandos. | ⏳ Pendente |
-| 14 | 13/11/2026 | Tipos de dados; operadores aritméticos, relacionais e lógicos; comparações; conversão de valores e estruturas condicionais com `if`, `else if` e `else`. | ⏳ Pendente |
-| — | 20/11/2026 | Feriado Nacional — Dia da Consciência Negra. | 📅 Feriado |
-| 15 | 27/11/2026 | Funções, parâmetros, argumentos e retorno; arrays, índices, propriedade `length`, métodos básicos, organização do código e introdução ao DOM. | ⏳ Pendente |
-| 16 | 04/12/2026 | Manipulação do DOM; seleção de elementos; eventos; formulários com JavaScript; validação básica; integração entre HTML, CSS e JavaScript; revisão e encerramento das atividades regulares. | ⏳ Pendente |
-| 17 | 11/12/2026 | **Recuperação semestral da aprendizagem, por meio de atividade individual teórica e/ou prática, contemplando os conhecimentos essenciais desenvolvidos durante a disciplina.** | ⏳ Pendente |
+## Identificação da disciplina
 
+| Informação                         | Descrição                                                      |
+| ---------------------------------- | -------------------------------------------------------------- |
+| **Curso**                          | Tecnologia em Redes de Computadores                            |
+| **Disciplina**                     | Desenvolvimento Web I                                          |
+| **Carga horária**                  | 60 horas                                                       |
+| **Tecnologias**                    | HTML, CSS, JavaScript e introdução a Web Components            |
+| **Dia e horário das aulas**        | Sexta-feira, das 19h às 22h30                                  |
+| **Professor**                      | [Cristofer Sousa](https://www.linkedin.com/in/cristofersousa/) |
+| **Plantão de dúvidas/atendimento** | Sexta-feira, das 18h às 19h                                    |
+| **Instituição**                    | Instituto Federal Catarinense — Campus Araquari                |
 
-O projeto começou com uma página de perfil pessoal e está evoluindo, aula após aula, para um portal com conteúdos sobre **programação**, **hobbies** e **informações pessoais**. Cada etapa permite aplicar novos conceitos de HTML, CSS, Git e publicação na Web.
+> O atendimento deve ser previamente combinado com o professor, especialmente quando houver necessidade de acompanhamento individual ou revisão de atividades.
 
+## Sumário
 
-## Uso de Inteligência Artificial na disciplina
+- [Proposta da disciplina](#proposta-da-disciplina)
+- [Importância para Redes de Computadores](#importância-para-redes-de-computadores)
+- [Benefícios e desafios para o estudante](#benefícios-e-desafios-para-o-estudante)
+- [Objetivos de aprendizagem](#objetivos-de-aprendizagem)
+- [Conteúdos abordados](#conteúdos-abordados)
+- [Metodologia](#metodologia)
+- [Projeto orientador](#projeto-orientador)
+- [Avaliação da aprendizagem](#avaliação-da-aprendizagem)
+- [Cronograma](#cronograma)
+- [Uso de Inteligência Artificial](#uso-de-inteligência-artificial)
+- [Como utilizar este repositório](#como-utilizar-este-repositório)
+- [Orientações para as entregas](#orientações-para-as-entregas)
+- [Referências](#referências)
 
->  Primeiro compreender os fundamentos; depois utilizar a Inteligência Artificial para ampliar a produtividade.
+## Proposta da disciplina
 
-Ferramentas de Inteligência Artificial podem ser utilizadas como recursos de apoio durante a disciplina. Entretanto, seu uso não substitui a aprendizagem dos fundamentos de HTML, CSS, JavaScript, lógica de programação, organização de código, versionamento e resolução de problemas.
+A disciplina apresenta os fundamentos necessários para compreender como páginas e aplicações Web são estruturadas, estilizadas e executadas no navegador.
 
-O objetivo da disciplina não é somente produzir uma página que aparente funcionar. O estudante deve compreender:
+Mais do que reproduzir interfaces, a proposta é permitir que o estudante compreenda o caminho percorrido entre uma requisição realizada pelo navegador e a apresentação de uma página ao usuário. Para isso, serão estudados:
 
-- O problema que está tentando resolver;
+- A estrutura de documentos com HTML;
+- A organização visual e a adaptação de layouts com CSS;
+- A criação de comportamentos e interações com JavaScript;
+- A comunicação entre páginas, navegadores, servidores e serviços Web;
+- A organização e o versionamento de projetos com Git e GitHub;
+- A publicação de páginas para acesso pela internet;
+- A introdução ao desenvolvimento baseado em componentes.
+
+As aulas combinam explicação conceitual, demonstração, desenvolvimento orientado, exercícios, análise de erros e evolução progressiva de projetos.
+
+## Importância para Redes de Computadores
+
+O funcionamento da Web está diretamente relacionado aos conhecimentos desenvolvidos no curso de Redes de Computadores. Ao acessar uma página, diferentes tecnologias e serviços participam do processo: navegador, DNS, protocolos HTTP e HTTPS, servidor Web, endereço IP, portas, certificados, arquivos estáticos, APIs e mecanismos de segurança.
+
+Compreender desenvolvimento Web ajuda o profissional de Redes a:
+
+- Entender o modelo cliente-servidor na prática;
+- Interpretar requisições e respostas HTTP;
+- Configurar e administrar servidores Web;
+- Publicar páginas, painéis e serviços internos;
+- Criar interfaces para ferramentas de infraestrutura;
+- Consumir e testar APIs;
+- Identificar problemas de conectividade entre navegador e servidor;
+- Analisar cabeçalhos, códigos de resposta e tráfego Web;
+- Compreender certificados, HTTPS e políticas de segurança;
+- Dialogar com equipes de desenvolvimento, infraestrutura, segurança e suporte;
+- Automatizar ou apresentar informações coletadas de dispositivos e serviços de rede.
+
+Um profissional de Redes não precisa necessariamente atuar como desenvolvedor de interfaces. Entretanto, conhecer os fundamentos da Web amplia sua autonomia e sua capacidade de investigar, integrar, documentar e entregar soluções.
+
+## Benefícios e desafios para o estudante
+
+### Benefícios
+
+| Benefício              | Relação com a formação                                                                 |
+| ---------------------- | -------------------------------------------------------------------------------------- |
+| Compreensão da Web     | Permite visualizar como navegador, protocolos e servidores trabalham em conjunto       |
+| Maior autonomia        | Ajuda na criação de páginas, painéis administrativos e ferramentas internas            |
+| Integração com APIs    | Facilita o consumo e a apresentação de dados de serviços e equipamentos                |
+| Diagnóstico técnico    | Melhora a capacidade de identificar falhas na aplicação, no servidor ou na comunicação |
+| Visão interdisciplinar | Aproxima desenvolvimento, infraestrutura, segurança e experiência do usuário           |
+| Portfólio profissional | Possibilita publicar projetos que demonstrem conhecimentos técnicos                    |
+| Trabalho em equipe     | Melhora a comunicação com profissionais de outras áreas da tecnologia                  |
+
+### Desafios
+
+| Desafio                                | Como será trabalhado                                                         |
+| -------------------------------------- | ---------------------------------------------------------------------------- |
+| Aprender diferentes linguagens         | Os conteúdos serão apresentados progressivamente, com aplicação prática      |
+| Organizar arquivos e responsabilidades | Serão adotados padrões simples de pastas, nomes e separação de estilos       |
+| Relacionar teoria e prática            | Cada conceito será utilizado na construção ou evolução de uma página         |
+| Identificar erros                      | Serão utilizados console, DevTools, leitura de mensagens e testes orientados |
+| Desenvolver autonomia                  | O estudante deverá explicar, modificar e corrigir o código que entregar      |
+| Evitar dependência de código pronto    | Exemplos externos e ferramentas de IA deverão ser analisados e compreendidos |
+
+O principal desafio é não tratar HTML, CSS e JavaScript apenas como comandos que precisam ser copiados. O estudante precisa compreender o papel de cada tecnologia e as consequências das decisões adotadas.
+
+## Objetivos de aprendizagem
+
+Ao final da disciplina, espera-se que o estudante seja capaz de:
+
+- Explicar o funcionamento básico da Web e do modelo cliente-servidor;
+- Criar documentos HTML bem estruturados;
+- Utilizar elementos semânticos de acordo com a finalidade do conteúdo;
+- Criar navegação entre diferentes páginas;
+- Organizar formulários e seus campos;
+- Aplicar estilos utilizando seletores, classes e propriedades CSS;
+- Compreender box model, fluxo dos elementos e tipos de `display`;
+- Criar layouts com Flexbox;
+- Utilizar medidas absolutas e relativas;
+- Adaptar páginas para diferentes tamanhos de tela;
+- Escrever comandos básicos em JavaScript;
+- Utilizar variáveis, operadores, condicionais, funções e arrays;
+- Selecionar e modificar elementos com o DOM;
+- Responder a eventos realizados pelo usuário;
+- Integrar JavaScript a formulários HTML;
+- Organizar e versionar projetos com Git e GitHub;
+- Documentar projetos por meio de um arquivo `README.md`;
+- Publicar páginas utilizando o GitHub Pages;
+- Ler, testar, explicar e corrigir o próprio código.
+
+## Conteúdos abordados
+
+### Fundamentos da Web
+
+- Internet e Web;
+- Modelo cliente-servidor;
+- Navegadores e servidores Web;
+- Endereços, URLs e recursos;
+- Introdução aos protocolos HTTP e HTTPS;
+- Ferramentas de desenvolvimento do navegador.
+
+### HTML
+
+- Estrutura básica de um documento;
+- Títulos, parágrafos, listas e links;
+- Imagens e caminhos de arquivos;
+- Elementos em bloco e inline;
+- Elementos `div` e `span`;
+- Semântica com `header`, `nav`, `main`, `section`, `article` e `footer`;
+- Elementos `figure`, `figcaption` e `time`;
+- Formulários, campos, rótulos, botões e validações nativas;
+- Acessibilidade básica.
+
+### CSS
+
+- Seletores, classes e propriedades;
+- Cascata, herança e especificidade;
+- CSS Reset;
+- Estilos globais e específicos;
+- Cores, tipografia, bordas e espaçamentos;
+- Box model e `box-sizing`;
+- Elementos em bloco e inline;
+- Flexbox, eixos, alinhamento, quebra e espaçamento;
+- Medidas `px`, `%`, `em`, `rem`, `vw` e `vh`;
+- Containers fluidos, `max-width` e `margin: 0 auto`;
+- Imagens responsivas e propriedade `object-fit`;
+- Viewport, breakpoints e media queries;
+- Identificação e correção de overflow.
+
+### JavaScript
+
+- Inclusão de scripts;
+- Console do navegador;
+- Variáveis com `let` e `const`;
+- Tipos de dados;
+- Operadores aritméticos, relacionais e lógicos;
+- Estruturas condicionais;
+- Funções, parâmetros e retorno;
+- Arrays e métodos básicos;
+- Introdução ao DOM;
+- Seleção e alteração de elementos;
+- Eventos;
+- Captura e validação básica de formulários.
+
+### Web Components
+
+- Motivação para a criação de componentes reutilizáveis;
+- Separação de responsabilidades;
+- Introdução a Custom Elements;
+- Relação entre HTML, CSS, JavaScript e componentes.
+
+> Web Components serão apresentados de maneira introdutória, de acordo com o desenvolvimento da turma e a disponibilidade do cronograma.
+
+### Git e publicação
+
+- Repositório local e remoto;
+- Alterações, commits e histórico;
+- Envio do código para o GitHub;
+- Organização do repositório;
+- Documentação com Markdown;
+- Publicação pelo GitHub Pages.
+
+## Metodologia
+
+A disciplina será desenvolvida por meio de:
+
+- Aulas expositivas dialogadas;
+- Demonstrações realizadas pelo professor;
+- Desenvolvimento de código em conjunto com a turma;
+- Exercícios de acompanhamento;
+- Atividades práticas individuais;
+- Análise e correção de erros;
+- Evolução progressiva de projetos;
+- Revisão e refatoração de código;
+- Utilização do Git e do GitHub;
+- Apresentação e explicação das soluções desenvolvidas.
+
+O erro será tratado como parte do processo de aprendizagem. O estudante será incentivado a observar o comportamento da aplicação, interpretar mensagens, formular hipóteses, testar alterações e registrar o processo realizado.
+
+## Projeto orientador
+
+Durante o primeiro ciclo, os conteúdos serão demonstrados por meio da construção progressiva de um **Portal de Notícias**.
+
+O projeto parte de uma página pessoal e evolui para um pequeno portal com páginas interligadas, conteúdo semântico, imagens, categorias, formulários, Flexbox e responsividade.
+
+O portal funciona como exemplo orientado. Para o trabalho individual N2, cada estudante desenvolverá um projeto próprio de **tema livre**, aplicando os conhecimentos construídos durante as aulas.
+
+## Avaliação da aprendizagem
+
+A avaliação será contínua, diagnóstica, formativa e somativa, considerando o desenvolvimento do estudante ao longo da disciplina.
+
+### Instrumentos avaliativos
+
+| Instrumento                          | Data prevista | Descrição                                                                              |
+| ------------------------------------ | :-----------: | -------------------------------------------------------------------------------------- |
+| **N1 — Avaliação individual**        |  02/10/2026   | Avaliação teórica e/ou prática envolvendo os conteúdos desenvolvidos no primeiro ciclo |
+| **N2 — Trabalho prático individual** |  16/10/2026   | Entrega e apresentação de um projeto Web individual de tema livre                      |
+| **Recuperação semestral**            |  11/12/2026   | Atividade individual teórica e/ou prática sobre os objetivos essenciais da disciplina  |
+
+Os exercícios realizados durante as aulas terão caráter diagnóstico e formativo. Eles permitirão acompanhar a aprendizagem, identificar dificuldades e orientar a retomada dos conteúdos, ainda que não constituam necessariamente instrumentos com atribuição de nota.
+
+### Critérios considerados
+
+- Desenvolvimento das atividades propostas;
+- Compreensão e aplicação dos conceitos;
+- Organização semântica do HTML;
+- Organização e qualidade do CSS;
+- Funcionamento da solução;
+- Responsividade e acessibilidade básica;
+- Capacidade de identificar e corrigir problemas;
+- Organização dos arquivos e diretórios;
+- Evolução do projeto;
+- Uso adequado do Git e do GitHub;
+- Documentação no `README.md`;
+- Cumprimento dos requisitos e prazos;
+- Compreensão demonstrada durante a apresentação.
+
+### N2 — Projeto individual de tema livre
+
+Cada estudante deverá desenvolver e apresentar um projeto Web individual relacionado a um tema de sua escolha.
+
+O projeto deverá demonstrar a aplicação dos conhecimentos do primeiro ciclo, incluindo HTML semântico, CSS, Flexbox, responsividade, formulário, organização dos arquivos, versionamento, documentação e publicação no GitHub Pages.
+
+Durante a apresentação, o estudante deverá:
+
+- Explicar o tema e o objetivo do projeto;
+- Demonstrar suas páginas e recursos;
+- Justificar as principais decisões técnicas;
+- Relatar as dificuldades encontradas;
+- Explicar as soluções adotadas;
+- Responder a perguntas sobre o código;
+- Realizar pequenas alterações, quando solicitado.
+
+A avaliação considerará o resultado final e a compreensão individual demonstrada.
+
+## Cronograma
+
+O cronograma poderá receber ajustes de acordo com o calendário acadêmico, o desenvolvimento da turma e as necessidades identificadas durante as aulas.
+
+| Aula |    Data    | Conteúdo previsto                                                                                                                            |    Status    |
+| :--: | :--------: | -------------------------------------------------------------------------------------------------------------------------------------------- | :----------: |
+|  —   | 07/08/2026 | Recesso acadêmico                                                                                                                            | ✅ Concluído |
+|  1   | 14/08/2026 | Apresentação da disciplina, diagnóstico, introdução à Web, estrutura básica do HTML, CSS inicial, Git, GitHub e publicação pelo GitHub Pages | ✅ Concluído |
+|  2   | 21/08/2026 | HTML semântico, estrutura de conteúdo, páginas, menu de navegação, links internos, imagens, legendas e datas                                 | ✅ Concluído |
+|  3   | 28/08/2026 | Elementos em bloco e inline, `div`, `span`, Flexbox, medidas, containers, imagens adaptáveis e página de Hobbies                             | ✅ Concluído |
+|  4   | 04/09/2026 | Responsividade, viewport, breakpoints, media queries e adaptação do portal para diferentes tamanhos de tela                                  | ⏳ Pendente  |
+|  5   | 11/09/2026 | Prática orientada de responsividade, correção do portal, adaptação do menu, perfil, cartões e imagens e utilização do DevTools               | ⏳ Pendente  |
+|  6   | 18/09/2026 | Formulários HTML, tipos de campos, rótulos, botões, atributos e validações nativas                                                           | ⏳ Pendente  |
+|  7   | 25/09/2026 | Revisão de HTML, CSS, formulários, Flexbox, medidas, responsividade, organização e publicação Web                                            | ⏳ Pendente  |
+|  8   | 02/10/2026 | **N1 — Avaliação individual de HTML e CSS**                                                                                                  | ⏳ Pendente  |
+|  9   | 09/10/2026 | Correção comentada da N1, retomada dos conteúdos e atividade prática de reforço                                                              | ⏳ Pendente  |
+|  10  | 16/10/2026 | **N2 — Entrega e apresentação do projeto Web individual de tema livre**                                                                      | ⏳ Pendente  |
+|  11  | 23/10/2026 | Devolutiva dos projetos, correção orientada e aperfeiçoamento das soluções                                                                   | ⏳ Pendente  |
+|  12  | 30/10/2026 | Finalização do primeiro ciclo, revisão dos projetos, resultados e preparação para JavaScript                                                 | ⏳ Pendente  |
+|  13  | 06/11/2026 | Introdução ao JavaScript, scripts, console, variáveis e primeiros comandos                                                                   | ⏳ Pendente  |
+|  14  | 13/11/2026 | Tipos de dados, operadores, comparações, conversões e estruturas condicionais                                                                | ⏳ Pendente  |
+|  —   | 20/11/2026 | Feriado Nacional — Dia da Consciência Negra                                                                                                  |  📅 Feriado  |
+|  15  | 27/11/2026 | Funções, parâmetros, retorno, arrays, métodos básicos, organização do código e introdução ao DOM                                             | ⏳ Pendente  |
+|  16  | 04/12/2026 | DOM, eventos, formulários com JavaScript, integração, revisão e encerramento das atividades regulares                                        | ⏳ Pendente  |
+|  17  | 11/12/2026 | **Recuperação semestral da aprendizagem**                                                                                                    | ⏳ Pendente  |
+
+### Legenda do cronograma
+
+| Símbolo | Situação                    |
+| :-----: | --------------------------- |
+|   ✅    | Concluído                   |
+|   🚧    | Em andamento                |
+|   ⏳    | Pendente                    |
+|   📅    | Feriado ou evento acadêmico |
+
+## Uso de Inteligência Artificial
+
+Ferramentas de Inteligência Artificial podem ser utilizadas como apoio à aprendizagem, mas não substituem o estudo dos fundamentos nem a responsabilidade do estudante sobre o código entregue.
+
+O objetivo da disciplina não é apenas produzir uma página que aparente funcionar. O estudante deve compreender:
+
+- O problema que está resolvendo;
 - A estrutura do código utilizado;
 - A função dos elementos, propriedades e comandos;
 - As decisões tomadas durante o desenvolvimento;
-- Os erros encontrados e as estratégias utilizadas para corrigi-los;
-- Os impactos das alterações realizadas no restante da aplicação;
-- As limitações e os possíveis equívocos das respostas produzidas pela IA.
+- Os erros encontrados e as soluções adotadas;
+- Os impactos das alterações realizadas;
+- As limitações e os possíveis erros das respostas produzidas por IA.
 
-### Inteligência Artificial como ferramenta de apoio
+### Vibe coding e fundamentos
 
-A IA poderá ser utilizada para:
+**Vibe coding**, ou programação por vibração, é uma forma de desenvolvimento na qual a pessoa descreve em linguagem natural o que deseja construir e utiliza uma Inteligência Artificial para gerar parte significativa da aplicação, concentrando-se no resultado final, sem necessariamente escrever ou compreender o código linha por linha.
 
-- Esclarecer conceitos estudados em aula;
-- Solicitar exemplos adicionais;
-- Comparar diferentes formas de resolver um problema;
-- Auxiliar na interpretação de mensagens de erro;
-- Revisar a organização e a legibilidade do código;
-- Sugerir melhorias depois que o estudante desenvolver uma solução inicial;
-- Produzir documentação a partir de um código que o estudante compreenda;
-- Apoiar pesquisas, desde que as informações sejam verificadas.
+Essa abordagem pode acelerar experimentações e protótipos. Entretanto, quando utilizada sem conhecimento técnico, pode produzir uma falsa sensação de domínio.
 
-Toda sugestão produzida por uma IA deve ser analisada, testada e validada pelo estudante antes de ser incorporada ao projeto.
-
-### Vibe coding e a importância dos fundamentos
-
-**Vibe coding**, também chamado de programação por vibração, é uma forma de desenvolvimento na qual a pessoa descreve em linguagem natural o que deseja construir e utiliza uma Inteligência Artificial para gerar grande parte da aplicação, concentrando-se principalmente no resultado final, sem necessariamente escrever ou compreender o código linha por linha.
-
-Esse processo pode acelerar experimentações e ajudar na criação de protótipos. Porém, quando utilizado sem conhecimento técnico, pode produzir uma falsa sensação de domínio.
-
-Um projeto funcionar visualmente não significa, necessariamente, que esteja correto, seguro, organizado, acessível ou preparado para manutenção.
-
-Sem domínio dos fundamentos, o estudante poderá apresentar dificuldades para:
+Um projeto funcionar visualmente não significa que esteja correto, seguro, organizado, acessível ou preparado para manutenção. Sem domínio dos fundamentos, o estudante poderá apresentar dificuldades para:
 
 - Identificar por que determinado código funciona;
-- Corrigir erros que não foram previstos pela IA;
-- Avaliar se a solução gerada atende aos requisitos;
+- Corrigir situações não previstas pela IA;
+- Avaliar se a solução atende aos requisitos;
 - Reconhecer problemas de semântica, acessibilidade e responsividade;
 - Identificar vulnerabilidades ou comportamentos inseguros;
-- Modificar funcionalidades sem comprometer outras partes do projeto;
-- Trabalhar com sistemas existentes ou códigos legados;
-- Participar de revisões técnicas e explicar suas decisões;
-- Desenvolver autonomia profissional.
-
-Na carreira de desenvolvimento, a IA poderá fazer parte do cotidiano, mas o profissional continuará responsável por compreender, avaliar, testar, corrigir e manter aquilo que entrega.
+- Modificar funcionalidades sem comprometer outras partes;
+- Trabalhar com sistemas existentes e códigos legados;
+- Participar de revisões técnicas;
+- Explicar e defender suas decisões.
 
 > A Inteligência Artificial pode sugerir o código, mas a responsabilidade pela solução permanece com quem a utiliza.
 
+### Utilização permitida como apoio
+
+A IA poderá ser utilizada para:
+
+- Esclarecer conceitos estudados;
+- Solicitar exemplos adicionais;
+- Comparar soluções;
+- Interpretar mensagens de erro;
+- Revisar organização e legibilidade;
+- Sugerir melhorias para uma solução inicial;
+- Apoiar a documentação;
+- Auxiliar pesquisas que posteriormente sejam verificadas.
+
+Toda sugestão deverá ser lida, testada e validada pelo estudante.
+
 ### Compreensão e autoria
 
-Durante as atividades, projetos e avaliações, o estudante deverá ser capaz de explicar o código entregue.
+Durante atividades, projetos e avaliações, o estudante deverá conseguir explicar e modificar o código apresentado. Poderão ser feitas perguntas sobre a função de elementos, propriedades, comandos e decisões utilizadas.
 
-Poderão ser realizadas perguntas como:
-
-- Qual é a função deste elemento HTML?
-- Por que esta propriedade CSS foi utilizada?
-- Como o Flexbox está organizando os elementos?
-- O que acontece se esta regra for removida?
-- Como o layout se comporta em uma tela menor?
-- Qual é a origem deste erro?
-- Como esta solução poderia ser modificada?
-- Por que esta estrutura foi escolhida?
-
-Caso o estudante não consiga explicar, adaptar ou corrigir o código apresentado, a entrega poderá não demonstrar adequadamente a aprendizagem esperada, mesmo que o resultado visual esteja funcionando.
-
-### Responsabilidade do estudante
-
-Ao utilizar uma ferramenta de IA, o estudante deverá:
-
-1. Ler integralmente o código gerado;
-2. Identificar os elementos e comandos que ainda não conhece;
-3. Pesquisar ou solicitar explicações sobre esses elementos;
-4. Testar a solução em diferentes situações;
-5. Verificar se o código atende aos requisitos da atividade;
-6. Corrigir problemas de organização, semântica e acessibilidade;
-7. Registrar modificações relevantes no repositório;
-8. Ser capaz de apresentar e explicar a solução;
-9. Informar o uso da IA quando isso for solicitado pelo professor.
+Caso não consiga explicar, adaptar ou corrigir o código entregue, o trabalho poderá não demonstrar adequadamente a aprendizagem esperada, mesmo que o resultado visual esteja funcionando.
 
 ### Uso inadequado
 
-Será considerado uso inadequado da Inteligência Artificial:
+Será considerado inadequado:
 
 - Entregar código gerado sem leitura ou compreensão;
-- Apresentar como autoral uma solução que o estudante não consegue explicar;
-- Utilizar conteúdos ainda não estudados sem compreender sua aplicação;
-- Solicitar que a IA realize integralmente uma avaliação individual;
-- Copiar respostas sem testar seu funcionamento;
-- Utilizar a IA para contornar os objetivos de aprendizagem;
-- Ocultar deliberadamente o uso da ferramenta quando sua declaração for solicitada.
+- Apresentar como autoral uma solução que não consegue explicar;
+- Utilizar conteúdos desconhecidos sem investigar seu funcionamento;
+- Solicitar que uma IA realize integralmente uma avaliação individual;
+- Copiar respostas sem testar;
+- Utilizar a ferramenta para contornar os objetivos de aprendizagem;
+- Ocultar seu uso quando a declaração for solicitada.
 
 ### Declaração de uso de IA
 
-Quando solicitado, o estudante deverá incluir no `README.md` do projeto uma breve declaração:
+Quando solicitado, o estudante deverá registrar no `README.md` do projeto:
 
 ```markdown
 ## Uso de Inteligência Artificial
 
-Ferramenta utilizada: [nome da ferramenta]
+**Ferramenta utilizada:** nome da ferramenta.
 
-Finalidade do uso:
-- [Exemplo: compreender uma mensagem de erro];
-- [Exemplo: revisar a organização do CSS];
-- [Exemplo: solicitar uma explicação sobre Flexbox].
+**Finalidade:** descreva para que a ferramenta foi utilizada.
 
-Partes do projeto que receberam auxílio:
-- [descrever arquivos, componentes ou funcionalidades].
+**Partes do projeto que receberam auxílio:** informe os arquivos,
+páginas ou funcionalidades relacionadas.
 
-Validação realizada:
-- [explicar como o código foi testado e revisado].
+**Validação realizada:** explique como o conteúdo foi analisado,
+testado e corrigido.
 
-Declaro que revisei o conteúdo gerado e que consigo explicar as soluções
+Declaro que revisei o conteúdo gerado e consigo explicar as soluções
 incorporadas ao projeto.
+```
 
+O princípio adotado na disciplina será:
 
+> Primeiro compreender os fundamentos; depois utilizar a Inteligência Artificial para ampliar a produtividade.
 
-## Acesso ao projeto
+## Como utilizar este repositório
 
-- Repositório: [github.com/cristofersousa/portal-noticias](https://github.com/cristofersousa/portal-noticias)
-- Página publicada: após ativar o GitHub Pages, o endereço será disponibilizado nesta seção.
+Cada estudante deverá criar uma cópia deste repositório em sua própria conta do GitHub por meio de um **fork**. Depois disso, deverá clonar o próprio fork para o computador.
 
-## Evolução do projeto
+### 1. Criar o fork
 
-| Aula | Conteúdos trabalhados | Resultado no projeto |
-| --- | --- | --- |
-| Aula 1 | Estrutura básica do HTML, introdução ao CSS, Git e GitHub Pages | Criação da página inicial de perfil pessoal |
-| Aula 2 | HTML semântico, navegação, links internos, imagens, legendas, datas e organização do CSS | Transformação da página isolada em um Portal de Notícias |
-| Aula 3 | Flexbox, elementos em bloco e inline, `div`, `span`, semântica, medidas e imagens adaptáveis | Construção da página de Hobbies com cartões flexíveis |
-| Próxima etapa | Reutilização do Flexbox, organização de layout e responsividade | Reformulação da página Sobre Mim inspirada em um perfil profissional |
+1. Acesse o repositório da disciplina: [ifc-dev-web2/rc-web1-fundamentos](https://github.com/ifc-dev-web2/rc-web1-fundamentos);
+2. Clique no botão **Fork**, localizado na parte superior da página;
+3. Selecione sua conta pessoal como destino;
+4. Mantenha o nome `rc-web1-fundamentos`, salvo orientação diferente do professor;
+5. Confirme a criação do fork.
 
-## Objetivos de aprendizagem
-
-Até esta etapa, o projeto permite praticar:
-
-- Estrutura básica de um documento HTML;
-- Organização semântica do conteúdo;
-- Diferença entre elementos em bloco e elementos inline;
-- Uso de `div` e `span` quando não existe um elemento semântico mais adequado;
-- Criação de um menu de navegação;
-- Links entre páginas do mesmo projeto;
-- Estrutura de notícias e publicações;
-- Uso de imagens com descrição e legenda;
-- Representação de datas e horários com o elemento `time`;
-- Separação entre estilos globais e estilos específicos;
-- Influência do CSS Reset sobre os elementos HTML;
-- Criação de layouts com Flexbox;
-- Uso de medidas absolutas e relativas;
-- Construção de containers centralizados e adaptáveis;
-- Tratamento de imagens com diferentes proporções;
-- Versionamento e publicação com Git, GitHub e GitHub Pages.
-
-## Tecnologias utilizadas
-
-- HTML5;
-- CSS3;
-- Git;
-- GitHub;
-- GitHub Pages;
-- Visual Studio Code.
-
-## Estrutura do projeto
+Ao concluir, o estudante terá em sua conta um repositório semelhante a:
 
 ```text
-portal-noticias/
-├── index.html
-├── hobbies.html
-├── perfil.html
-├── README.md
-├── css/
-│   ├── reset.css
-│   ├── global.css
-│   ├── styles.css
-│   ├── hobbies.css
-│   └── perfil.css
-├── docs/
-│   ├── index.md
-│   └── hobbies.md
-└── img/
-    ├── estrada.avif
-    ├── banco-de-dados.avif
-    ├── seguranca-de-redes.jpeg
-    └── hobbies/
-        ├── musica.jpg
-        ├── cinema.jpg
-        └── hoquei.jpg
+https://github.com/seu-usuario/rc-web1-fundamentos
 ```
 
-> A estrutura representa a organização proposta para o projeto. Os nomes das imagens podem variar conforme os arquivos escolhidos pela turma.
+### 2. Clonar o próprio fork
 
-## Páginas do portal
+No repositório criado em sua conta, clique em **Code** e copie o endereço HTTPS. Em seguida, execute:
 
-### Programação — `index.html`
-
-A página principal representa a área de **Programação** e apresenta:
-
-- Cabeçalho e descrição do portal;
-- Menu de navegação;
-- Três matérias organizadas semanticamente;
-- Categorias apresentadas como badges;
-- Imagens com legenda;
-- Datas e horários das publicações;
-- Rodapé institucional.
-
-As matérias utilizadas como exemplo abordam:
-
-1. Desenvolvimento Web I;
-2. Banco de Dados;
-3. Segurança de Redes.
-
-### Hobbies — `hobbies.html`
-
-A página de Hobbies apresenta interesses pessoais por meio de cartões. Cada cartão contém:
-
-- Imagem relacionada ao hobby;
-- Legenda da imagem;
-- Título;
-- Descrição;
-- Data da publicação.
-
-Os cartões são organizados com Flexbox e podem mudar de linha de acordo com o espaço disponível.
-
-### Sobre Mim — `perfil.html`
-
-A página Sobre Mim reaproveita o perfil criado na primeira aula. Na próxima etapa, ela será reorganizada com Flexbox e passará a apresentar uma estrutura inspirada em perfis profissionais, com capa, fotografia, apresentação, informações pessoais, competências e projetos.
-
-## Menu de navegação
-
-O menu conecta as três páginas por meio de links internos:
-
-```html
-<nav aria-label="Navegação principal">
-  <ul>
-    <li><a href="index.html">Programação</a></li>
-    <li><a href="hobbies.html">Hobbies</a></li>
-    <li><a href="perfil.html">Sobre Mim</a></li>
-  </ul>
-</nav>
+```bash
+git clone https://github.com/seu-usuario/rc-web1-fundamentos.git
 ```
 
-Os links são internos porque apontam para arquivos do mesmo site.
+> Substitua `seu-usuario` pelo seu nome de usuário no GitHub. O endereço utilizado no clone deve apontar para o fork do estudante, e não para o repositório original da disciplina.
 
-## Estrutura semântica
+### 3. Acessar o diretório
 
-O projeto utiliza elementos semânticos do HTML5 para indicar a função de cada parte do documento.
-
-| Elemento | Função no projeto |
-| --- | --- |
-| `<header>` | Representa o cabeçalho da página ou a introdução de uma publicação |
-| `<nav>` | Reúne os links principais de navegação |
-| `<main>` | Identifica o conteúdo principal da página |
-| `<section>` | Agrupa conteúdos relacionados por tema |
-| `<article>` | Representa um conteúdo independente, como notícia ou cartão de hobby |
-| `<figure>` | Agrupa uma imagem ao seu conteúdo relacionado |
-| `<figcaption>` | Apresenta a legenda visível de uma imagem |
-| `<time>` | Representa uma data ou um horário |
-| `<footer>` | Contém informações finais de uma publicação ou da página |
-| `<div>` | Cria um agrupamento genérico para organização ou layout |
-| `<span>` | Marca um pequeno trecho inline para estilo ou identificação |
-
-O elemento `header` pode aparecer mais de uma vez na mesma página, pois também pode representar a introdução de um `article`. Da mesma forma, uma publicação pode possuir seu próprio `footer`.
-
-## Estrutura de uma matéria
-
-Cada matéria da página principal é organizada como um conteúdo independente:
-
-```html
-<section>
-  <article>
-    <header>
-      <p class="categoria">Desenvolvimento Web I</p>
-      <h3>Título da matéria</h3>
-      <p class="subtitulo">Subtítulo da matéria.</p>
-    </header>
-
-    <figure class="imagem-publicacao">
-      <img src="./img/estrada.avif" alt="Estrada entre montanhas">
-      <figcaption>
-        A aprendizagem em Desenvolvimento Web acontece por etapas!
-      </figcaption>
-    </figure>
-
-    <p>Texto da publicação.</p>
-
-    <footer>
-      <p>
-        Publicado em
-        <time datetime="2026-08-21T21:06">
-          21 de agosto de 2026, às 21h06
-        </time>
-      </p>
-    </footer>
-  </article>
-</section>
+```bash
+cd rc-web1-fundamentos
 ```
 
-## Estrutura de um cartão de hobby
+### 4. Abrir no Visual Studio Code
 
-Cada hobby também é um conteúdo independente e, por isso, utiliza `article`:
-
-```html
-<article class="cartao-hobby">
-  <figure>
-    <div class="area-imagem">
-      <img src="./img/hobbies/musica.jpg" alt="Pessoa ouvindo música">
-    </div>
-    <figcaption>Música para relaxar e buscar inspiração</figcaption>
-  </figure>
-
-  <div class="conteudo-cartao">
-    <h3>Música</h3>
-    <p>Gosto de escutar música durante os momentos de descanso.</p>
-    <footer>
-      <time datetime="2026-08-28">28 de agosto de 2026</time>
-    </footer>
-  </div>
-</article>
+```bash
+code .
 ```
 
-## Elementos em bloco e inline
+### 5. Conferir o repositório remoto
 
-Os elementos em bloco normalmente começam em uma nova linha e ocupam a largura disponível. Exemplos utilizados no projeto:
+Para verificar para qual repositório as alterações serão enviadas:
+
+```bash
+git remote -v
+```
+
+O endereço de `origin` deverá apontar para a conta do estudante:
 
 ```text
-header, nav, main, section, article, figure, div, p e footer
+https://github.com/seu-usuario/rc-web1-fundamentos.git
 ```
 
-Os elementos inline permanecem no fluxo do texto. Exemplos:
+### 6. Registrar e enviar as alterações
 
-```text
-a, span, strong, em e time
+Depois de realizar uma atividade, verifique, registre e envie as mudanças:
+
+```bash
+git status
+git add .
+git commit -m "Adiciona atividade da aula"
+git push origin main
 ```
 
-O comportamento visual pode ser alterado pelo CSS com a propriedade `display`.
+A mensagem do commit deverá descrever de maneira breve e objetiva a alteração realizada.
 
-## Flexbox na página de Hobbies
+### Repositório original e fork
 
-O Flexbox organiza os cartões dentro de um container:
+| Repositório                        | Responsabilidade                                                                      |
+| ---------------------------------- | ------------------------------------------------------------------------------------- |
+| Repositório original da disciplina | Disponibiliza materiais, exemplos, orientações e atualizações mantidas pelo professor |
+| Fork do estudante                  | Armazena as atividades e modificações realizadas individualmente                      |
 
-```css
-.lista-hobbies {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-}
+O estudante deve confirmar, antes de iniciar uma atividade, que está trabalhando no fork de sua própria conta.
 
-.cartao-hobby {
-  flex: 1 1 280px;
-}
-```
+Durante a disciplina, consulte as pastas e os arquivos indicados pelo professor para cada aula. Os exemplos são materiais de estudo e devem ser lidos, executados, modificados e testados.
 
-| Propriedade | Efeito no layout |
-| --- | --- |
-| `display: flex` | Transforma o elemento em um container flexível |
-| `flex-wrap: wrap` | Permite que os cartões mudem de linha |
-| `gap` | Define o espaço entre os cartões |
-| `flex: 1 1 280px` | Permite que o cartão cresça, diminua e use `280px` como base |
-| `justify-content` | Distribui os itens no eixo principal |
-| `align-items` | Alinha os itens no eixo transversal |
+## Orientações para as entregas
 
-## Medidas e adaptação do layout
+Antes de entregar uma atividade ou projeto, verifique:
 
-O projeto combina medidas fixas e relativas:
+- [ ] O repositório está acessível;
+- [ ] Os arquivos estão organizados;
+- [ ] O menu e os links funcionam;
+- [ ] As imagens foram incluídas no repositório;
+- [ ] Os caminhos dos arquivos estão corretos;
+- [ ] O HTML possui organização semântica;
+- [ ] O CSS está separado e organizado;
+- [ ] A página se adapta a diferentes larguras;
+- [ ] O formulário possui rótulos e campos adequados;
+- [ ] O código foi testado no navegador;
+- [ ] As alterações foram registradas em commits;
+- [ ] O `README.md` explica o projeto;
+- [ ] O GitHub Pages está atualizado, quando solicitado;
+- [ ] O uso de IA foi declarado, quando aplicável;
+- [ ] O estudante consegue explicar o código entregue.
 
-| Unidade | Referência | Uso comum no projeto |
-| --- | --- | --- |
-| `px` | Unidade fixa em pixels CSS | Bordas e limites pontuais |
-| `rem` | Tamanho da fonte do elemento raiz | Espaçamentos e tamanhos de texto |
-| `em` | Tamanho da fonte do contexto atual | Legendas e ajustes locais |
-| `%` | Dimensão do elemento pai | Larguras adaptáveis |
-| `vw` | Largura da janela | Elementos relacionados ao viewport |
-| `vh` | Altura da janela | Seções relacionadas à altura da tela |
+## Conduta acadêmica
 
-Um container fluido, limitado e centralizado pode ser criado assim:
+Espera-se que todas as atividades sejam realizadas com responsabilidade, respeito e transparência.
 
-```css
-.container {
-  width: 90%;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-```
+O compartilhamento de conhecimento e a colaboração são incentivados durante as práticas. Entretanto, avaliações e trabalhos definidos como individuais deverão representar a aprendizagem e a autoria de cada estudante.
 
-- `width: 90%` permite que o conteúdo acompanhe o espaço disponível;
-- `max-width` evita que o conteúdo cresça excessivamente;
-- `margin: 0 auto` centraliza horizontalmente um elemento com largura definida.
+Plágio, cópia integral de projetos, falsificação de autoria ou entrega de código que o estudante não consiga explicar poderão ser considerados incompatíveis com os objetivos da atividade.
 
-## Imagens com diferentes proporções
+## Referências
 
-Para exibir a imagem inteira e preservar sua proporção:
-
-```css
-img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-```
-
-Para manter todos os cartões com a mesma altura visual, uma área de imagem pode ser delimitada:
-
-```css
-.area-imagem {
-  height: 220px;
-  background-color: #e9edf3;
-}
-
-.area-imagem img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-```
-
-- `object-fit: cover` preenche toda a área, mas pode recortar a imagem;
-- `object-fit: contain` mostra a imagem inteira, mas pode deixar espaços livres;
-- `height: auto` preserva a proporção natural, porém gera cartões com alturas diferentes.
-
-A escolha depende do objetivo visual da página.
-
-## Imagem, descrição e legenda
-
-Os elementos `figure` e `figcaption` são usados quando a imagem faz parte do conteúdo:
-
-```html
-<figure class="imagem-publicacao">
-  <img src="./img/estrada.avif" alt="Estrada entre montanhas">
-  <figcaption>
-    A aprendizagem em Desenvolvimento Web acontece por etapas!
-  </figcaption>
-</figure>
-```
-
-- `figure` agrupa a imagem e sua legenda;
-- `figcaption` apresenta uma legenda visível;
-- `alt` descreve a imagem para acessibilidade e também aparece quando o arquivo não é carregado.
-
-O `figcaption` não substitui o atributo `alt`.
-
-## Datas e horários
-
-As datas das publicações são marcadas com o elemento `time`:
-
-```html
-<time datetime="2026-08-21T21:06">
-  21 de agosto de 2026, às 21h06
-</time>
-```
-
-O atributo `datetime` fornece uma representação que pode ser interpretada por navegadores, mecanismos de busca e outras ferramentas.
-
-## Organização dos estilos
-
-As folhas de estilo devem ser carregadas do arquivo mais geral para o mais específico:
-
-```html
-<link rel="stylesheet" href="./css/reset.css">
-<link rel="stylesheet" href="./css/global.css">
-<link rel="stylesheet" href="./css/hobbies.css">
-```
-
-| Arquivo | Responsabilidade |
-| --- | --- |
-| `reset.css` | Reduz diferenças entre os estilos padrão dos navegadores |
-| `global.css` | Define tipografia, cabeçalho, menu, elementos compartilhados e rodapé principal |
-| `styles.css` | Contém os estilos específicos da página de Programação |
-| `hobbies.css` | Contém a galeria, os cartões e as imagens da página de Hobbies |
-| `perfil.css` | Conterá os estilos específicos da página Sobre Mim |
-
-## CSS Reset e formatação de texto
-
-O CSS Reset de Eric Meyer aplica `font: inherit` em diversos elementos. Por isso, elementos como `strong` e `em` podem perder a formatação visual padrão.
-
-O comportamento pode ser restaurado no `global.css`:
-
-```css
-strong,
-b {
-  font-weight: 700;
-}
-
-em,
-i {
-  font-style: italic;
-}
-```
-
-Quando o texto mencionar um elemento HTML, também pode ser utilizado o elemento `code`:
-
-```html
-<code>&lt;header&gt;</code>
-```
-
-## Documentação complementar
-
-A pasta `docs` apresenta explicações mais detalhadas sobre a estrutura e o CSS de cada página:
-
-- [`docs/index.md`](./docs/index.md) — documentação da página de Programação;
-- [`docs/hobbies.md`](./docs/hobbies.md) — documentação da página de Hobbies.
-
-## Como executar
-
-1. Faça o download ou clone o repositório:
-
-   ```bash
-   git clone https://github.com/cristofersousa/portal-noticias.git
-   ```
-
-2. Abra a pasta do projeto no Visual Studio Code;
-3. Confirme se os arquivos estão organizados conforme a estrutura apresentada;
-4. Abra o arquivo `index.html` no navegador;
-5. Utilize o menu para navegar entre as páginas.
-
-Também é possível utilizar a extensão **Live Server** no Visual Studio Code.
-
-## Checklist atual
-
-- [x] Cabeçalho principal;
-- [x] Menu com links internos;
-- [x] Conteúdo organizado com `main`;
-- [x] Matérias estruturadas com `section` e `article`;
-- [x] Cabeçalho e rodapé em cada matéria;
-- [x] Imagens com `figure`, `figcaption` e `alt`;
-- [x] Datas utilizando `time`;
-- [x] Separação entre reset, estilos globais e estilos específicos;
-- [x] Categorias apresentadas como badges;
-- [x] Página de Hobbies com cartões;
-- [x] Galeria de Hobbies organizada com Flexbox;
-- [x] Tratamento de imagens horizontais e verticais;
-- [x] Documentação das páginas Programação e Hobbies;
-- [ ] Reformulação da página Sobre Mim com Flexbox;
-- [ ] Revisão da adaptação para telas menores;
-- [ ] Verificação final dos textos alternativos das imagens;
-- [ ] Atualização da publicação no GitHub Pages.
-
-## Próximas etapas
-
-- Reorganizar a página Sobre Mim com Flexbox;
-- Criar uma apresentação inspirada em perfis profissionais;
-- Adaptar menu, perfil e cartões para telas menores;
-- Introduzir media queries;
-- Testar o portal pelo DevTools;
-- Revisar acessibilidade, ortografia e caminhos dos arquivos;
-- Publicar a nova versão no GitHub Pages.
+- [MDN Web Docs](https://developer.mozilla.org/pt-BR/);
+- [WHATWG — HTML Living Standard](https://html.spec.whatwg.org/);
+- [W3C — Web Standards](https://www.w3.org/standards/);
+- [JavaScript.info](https://javascript.info/);
+- [Git — Documentação](https://git-scm.com/doc);
+- [GitHub Docs](https://docs.github.com/pt).
 
 ---
 
+## Licença e uso educacional
+
+Este repositório possui finalidade educacional e foi desenvolvido como material de apoio para a disciplina de Desenvolvimento Web I.
+
+Os estudantes poderão criar forks, estudar, modificar e adaptar os exemplos e projetos para fins de aprendizagem, construção de portfólio e desenvolvimento profissional.
+
+Ao reutilizar este material, recomenda-se manter a referência ao projeto original e ao Instituto Federal Catarinense — Campus Araquari.
+
+Os projetos individuais desenvolvidos pelos estudantes poderão receber suas próprias adaptações, identidades visuais e conteúdos, respeitando a autoria de materiais externos, imagens, bibliotecas e demais recursos utilizados.
+
+Para informações sobre as permissões de uso, modificação e distribuição, consulte o arquivo [`LICENSE`](./LICENSE).
+
+---
+
+**Professor:** [Cristofer Sousa](https://www.linkedin.com/in/cristofersousa/)  
 **Disciplina:** Desenvolvimento Web I  
-**Curso:** Redes de Computadores  
-**Instituição:** IFC — Campus Araquari  
-**Projeto:** Portal de Notícias
+**Curso:** Tecnologia em Redes de Computadores  
+**Instituição:** Instituto Federal Catarinense — Campus Araquari
