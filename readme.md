@@ -2,7 +2,156 @@
 
 Projeto didático desenvolvido na disciplina de **Desenvolvimento Web I**, do curso de Redes de Computadores do **IFC — Campus Araquari**.
 
+## Cronograma da disciplina
+
+| Aula | Data | Conteúdo previsto | Status |
+| :---: | :---: | --- | :---: |
+| — | 07/08/2026 | Recesso acadêmico | ✅ Concluído |
+| 1 | 14/08/2026 | Apresentação da disciplina, diagnóstico da turma, introdução ao desenvolvimento Web, estrutura básica do HTML, introdução ao CSS, Git, GitHub e publicação pelo GitHub Pages. | ✅ Concluído |
+| 2 | 21/08/2026 | HTML semântico, elementos `header`, `nav`, `main`, `section`, `article`, `figure`, `figcaption`, `time` e `footer`; criação de páginas, menu de navegação e links internos. | ✅ Concluído |
+| 3 | 28/08/2026 | Elementos em bloco e inline; utilização de `div` e `span`; introdução ao Flexbox; medidas absolutas e relativas; containers; imagens adaptáveis e construção da página de Hobbies. | ✅ Concluído |
+| 4 | 04/09/2026 | Responsividade, configuração do viewport, adaptação natural do layout, breakpoints, media queries e reorganização do portal para diferentes tamanhos de tela. | ⏳ Pendente |
+| 5 | 11/09/2026 | Prática orientada de responsividade; correção do portal; adaptação do menu, perfil, cartões e imagens; identificação de overflow e utilização do DevTools. | ⏳ Pendente |
+| 6 | 18/09/2026 | Formulários HTML; elementos `form`, `label`, `input`, `textarea`, `select` e `button`; tipos de campos, atributos e validações nativas. | ⏳ Pendente |
+| 7 | 25/09/2026 | Revisão de HTML semântico, formulários, CSS, box model, Flexbox, medidas relativas, responsividade, organização de arquivos e publicação Web. | ⏳ Pendente |
+| 8 | 02/10/2026 | **N1 — Avaliação individual, teórica e/ou prática, envolvendo HTML, CSS, semântica, formulários, Flexbox e responsividade.** | ⏳ Pendente |
+| 9 | 09/10/2026 | Correção comentada da avaliação N1; identificação dos erros recorrentes; retomada dos conteúdos e atividade prática de reforço. | ⏳ Pendente |
+| 10 | 16/10/2026 | **N2 — Entrega e apresentação do projeto Web individual de tema livre, com HTML semântico, CSS, Flexbox, responsividade, formulário, versionamento, documentação e publicação no GitHub Pages.** | ⏳ Pendente |
+| 11 | 23/10/2026 | Devolutiva do projeto individual; correção orientada; retomada dos conteúdos de HTML e CSS e aperfeiçoamento das soluções desenvolvidas. | ⏳ Pendente |
+| 12 | 30/10/2026 | Finalização do primeiro ciclo; revisão dos projetos; devolutiva das avaliações; apresentação dos resultados e preparação para a introdução ao JavaScript. | ⏳ Pendente |
+| 13 | 06/11/2026 | Introdução ao JavaScript; relação entre HTML, CSS e JavaScript; inclusão de scripts; console; `alert()`, `prompt()`, variáveis com `let` e `const` e primeiros comandos. | ⏳ Pendente |
+| 14 | 13/11/2026 | Tipos de dados; operadores aritméticos, relacionais e lógicos; comparações; conversão de valores e estruturas condicionais com `if`, `else if` e `else`. | ⏳ Pendente |
+| — | 20/11/2026 | Feriado Nacional — Dia da Consciência Negra. | 📅 Feriado |
+| 15 | 27/11/2026 | Funções, parâmetros, argumentos e retorno; arrays, índices, propriedade `length`, métodos básicos, organização do código e introdução ao DOM. | ⏳ Pendente |
+| 16 | 04/12/2026 | Manipulação do DOM; seleção de elementos; eventos; formulários com JavaScript; validação básica; integração entre HTML, CSS e JavaScript; revisão e encerramento das atividades regulares. | ⏳ Pendente |
+| 17 | 11/12/2026 | **Recuperação semestral da aprendizagem, por meio de atividade individual teórica e/ou prática, contemplando os conhecimentos essenciais desenvolvidos durante a disciplina.** | ⏳ Pendente |
+
+
 O projeto começou com uma página de perfil pessoal e está evoluindo, aula após aula, para um portal com conteúdos sobre **programação**, **hobbies** e **informações pessoais**. Cada etapa permite aplicar novos conceitos de HTML, CSS, Git e publicação na Web.
+
+
+## Uso de Inteligência Artificial na disciplina
+
+>  Primeiro compreender os fundamentos; depois utilizar a Inteligência Artificial para ampliar a produtividade.
+
+Ferramentas de Inteligência Artificial podem ser utilizadas como recursos de apoio durante a disciplina. Entretanto, seu uso não substitui a aprendizagem dos fundamentos de HTML, CSS, JavaScript, lógica de programação, organização de código, versionamento e resolução de problemas.
+
+O objetivo da disciplina não é somente produzir uma página que aparente funcionar. O estudante deve compreender:
+
+- O problema que está tentando resolver;
+- A estrutura do código utilizado;
+- A função dos elementos, propriedades e comandos;
+- As decisões tomadas durante o desenvolvimento;
+- Os erros encontrados e as estratégias utilizadas para corrigi-los;
+- Os impactos das alterações realizadas no restante da aplicação;
+- As limitações e os possíveis equívocos das respostas produzidas pela IA.
+
+### Inteligência Artificial como ferramenta de apoio
+
+A IA poderá ser utilizada para:
+
+- Esclarecer conceitos estudados em aula;
+- Solicitar exemplos adicionais;
+- Comparar diferentes formas de resolver um problema;
+- Auxiliar na interpretação de mensagens de erro;
+- Revisar a organização e a legibilidade do código;
+- Sugerir melhorias depois que o estudante desenvolver uma solução inicial;
+- Produzir documentação a partir de um código que o estudante compreenda;
+- Apoiar pesquisas, desde que as informações sejam verificadas.
+
+Toda sugestão produzida por uma IA deve ser analisada, testada e validada pelo estudante antes de ser incorporada ao projeto.
+
+### Vibe coding e a importância dos fundamentos
+
+**Vibe coding**, também chamado de programação por vibração, é uma forma de desenvolvimento na qual a pessoa descreve em linguagem natural o que deseja construir e utiliza uma Inteligência Artificial para gerar grande parte da aplicação, concentrando-se principalmente no resultado final, sem necessariamente escrever ou compreender o código linha por linha.
+
+Esse processo pode acelerar experimentações e ajudar na criação de protótipos. Porém, quando utilizado sem conhecimento técnico, pode produzir uma falsa sensação de domínio.
+
+Um projeto funcionar visualmente não significa, necessariamente, que esteja correto, seguro, organizado, acessível ou preparado para manutenção.
+
+Sem domínio dos fundamentos, o estudante poderá apresentar dificuldades para:
+
+- Identificar por que determinado código funciona;
+- Corrigir erros que não foram previstos pela IA;
+- Avaliar se a solução gerada atende aos requisitos;
+- Reconhecer problemas de semântica, acessibilidade e responsividade;
+- Identificar vulnerabilidades ou comportamentos inseguros;
+- Modificar funcionalidades sem comprometer outras partes do projeto;
+- Trabalhar com sistemas existentes ou códigos legados;
+- Participar de revisões técnicas e explicar suas decisões;
+- Desenvolver autonomia profissional.
+
+Na carreira de desenvolvimento, a IA poderá fazer parte do cotidiano, mas o profissional continuará responsável por compreender, avaliar, testar, corrigir e manter aquilo que entrega.
+
+> A Inteligência Artificial pode sugerir o código, mas a responsabilidade pela solução permanece com quem a utiliza.
+
+### Compreensão e autoria
+
+Durante as atividades, projetos e avaliações, o estudante deverá ser capaz de explicar o código entregue.
+
+Poderão ser realizadas perguntas como:
+
+- Qual é a função deste elemento HTML?
+- Por que esta propriedade CSS foi utilizada?
+- Como o Flexbox está organizando os elementos?
+- O que acontece se esta regra for removida?
+- Como o layout se comporta em uma tela menor?
+- Qual é a origem deste erro?
+- Como esta solução poderia ser modificada?
+- Por que esta estrutura foi escolhida?
+
+Caso o estudante não consiga explicar, adaptar ou corrigir o código apresentado, a entrega poderá não demonstrar adequadamente a aprendizagem esperada, mesmo que o resultado visual esteja funcionando.
+
+### Responsabilidade do estudante
+
+Ao utilizar uma ferramenta de IA, o estudante deverá:
+
+1. Ler integralmente o código gerado;
+2. Identificar os elementos e comandos que ainda não conhece;
+3. Pesquisar ou solicitar explicações sobre esses elementos;
+4. Testar a solução em diferentes situações;
+5. Verificar se o código atende aos requisitos da atividade;
+6. Corrigir problemas de organização, semântica e acessibilidade;
+7. Registrar modificações relevantes no repositório;
+8. Ser capaz de apresentar e explicar a solução;
+9. Informar o uso da IA quando isso for solicitado pelo professor.
+
+### Uso inadequado
+
+Será considerado uso inadequado da Inteligência Artificial:
+
+- Entregar código gerado sem leitura ou compreensão;
+- Apresentar como autoral uma solução que o estudante não consegue explicar;
+- Utilizar conteúdos ainda não estudados sem compreender sua aplicação;
+- Solicitar que a IA realize integralmente uma avaliação individual;
+- Copiar respostas sem testar seu funcionamento;
+- Utilizar a IA para contornar os objetivos de aprendizagem;
+- Ocultar deliberadamente o uso da ferramenta quando sua declaração for solicitada.
+
+### Declaração de uso de IA
+
+Quando solicitado, o estudante deverá incluir no `README.md` do projeto uma breve declaração:
+
+```markdown
+## Uso de Inteligência Artificial
+
+Ferramenta utilizada: [nome da ferramenta]
+
+Finalidade do uso:
+- [Exemplo: compreender uma mensagem de erro];
+- [Exemplo: revisar a organização do CSS];
+- [Exemplo: solicitar uma explicação sobre Flexbox].
+
+Partes do projeto que receberam auxílio:
+- [descrever arquivos, componentes ou funcionalidades].
+
+Validação realizada:
+- [explicar como o código foi testado e revisado].
+
+Declaro que revisei o conteúdo gerado e que consigo explicar as soluções
+incorporadas ao projeto.
+
+
 
 ## Acesso ao projeto
 
