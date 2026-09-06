@@ -32,8 +32,13 @@ Este espaço reúne exemplos, materiais, atividades, projetos e registros utiliz
 - [Cronograma](#cronograma)
 - [Uso de Inteligência Artificial](#uso-de-inteligência-artificial)
 - [Como utilizar este repositório](#como-utilizar-este-repositório)
+- [Padronização e formatação do código](#-padronização-e-formatação-do-código)
+- [Estrutura do projeto](#estrutura-do-projeto)
+- [Materiais de apoio](#materiais-de-apoio)
 - [Orientações para as entregas](#orientações-para-as-entregas)
+- [Conduta acadêmica](#conduta-acadêmica)
 - [Referências](#referências)
+- [Licença e uso educacional](#licença-e-uso-educacional)
 
 ## Proposta da disciplina
 
@@ -508,21 +513,20 @@ Durante a disciplina, consulte as pastas e os arquivos indicados pelo professor 
 ## Estrutura do Projeto
 
 ```text
-portal-noticias/
+rc-web1-fundamentos/
 ├── .vscode/
 │   ├── extensions.json
 │   └── settings.json
-│
 ├── css/
 │   ├── global.css
 │   ├── hobbies.css
-│   └── perfil.css
-│
+│   ├── perfil.css
+│   ├── reset.css
+│   └── styles.css
 ├── docs/
 │   ├── aulas/
 │   │   ├── 01-index.md
 │   │   └── 02-hobbies.md
-│   ├── criar-repositorio-base.md
 │   ├── guia-box-model-css.md
 │   ├── guia-devtools-css.md
 │   ├── guia-flexbox-css.md
@@ -531,15 +535,9 @@ portal-noticias/
 │   ├── guia-layout-responsivo-css.md
 │   ├── guia-padronizacao-codigo.md
 │   └── guia-tipografia-css.md
-│
 ├── img/
 │   ├── hobbies/
-│   │   ├── hockey.png
-│   │   ├── surf-png
-│   │   └── music.png
-│   ├── perfil/
-│   └── news/
-│
+│   └── demais imagens do projeto
 ├── .editorconfig
 ├── .gitignore
 ├── .prettierignore
