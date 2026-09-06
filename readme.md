@@ -522,9 +522,23 @@ portal-noticias/
 │   ├── aulas/
 │   │   ├── 01-index.md
 │   │   └── 02-hobbies.md
-│   └── guia-padronizacao-codigo.md
+│   ├── criar-repositorio-base.md
+│   ├── guia-box-model-css.md
+│   ├── guia-devtools-css.md
+│   ├── guia-flexbox-css.md
+│   ├── guia-fundamentos-css.md
+│   ├── guia-imagens-html-css.md
+│   ├── guia-layout-responsivo-css.md
+│   ├── guia-padronizacao-codigo.md
+│   └── guia-tipografia-css.md
 │
 ├── img/
+│   ├── hobbies/
+│   │   ├── hockey.png
+│   │   ├── surf-png
+│   │   └── music.png
+│   ├── perfil/
+│   └── news/
 │
 ├── .editorconfig
 ├── .gitignore
@@ -538,6 +552,51 @@ portal-noticias/
 ```
 
 ---
+
+## Materiais de apoio
+
+Os guias abaixo complementam os conteúdos apresentados durante as aulas e
+podem ser utilizados como material de consulta durante o desenvolvimento das
+atividades.
+
+### Ambiente e organização do projeto
+
+- [Guia de padronização do código](./docs/guia-padronizacao-codigo.md):
+  explica o EditorConfig, o Prettier, as configurações do VS Code e as
+  extensões recomendadas;
+- [Como criar um repositório-base](./docs/criar-repositorio-base.md):
+  apresenta o processo de criação e configuração de um template semelhante
+  ao utilizado na disciplina.
+
+### Fundamentos do CSS
+
+- [Guia de fundamentos do CSS](./docs/guia-fundamentos-css.md): aborda
+  seletores, cascata, especificidade, pseudo-classes, pseudo-elementos e
+  variáveis CSS;
+- [Guia de Box Model](./docs/guia-box-model-css.md): apresenta conteúdo,
+  padding, borda, margem, dimensões e `box-sizing`;
+- [Guia de tipografia no CSS](./docs/guia-tipografia-css.md): explica
+  tamanhos, unidades `rem` e `px`, pesos de fonte, altura da linha e escalas
+  tipográficas;
+- [Guia de imagens no HTML e CSS](./docs/guia-imagens-html-css.md): aborda
+  imagens responsivas, proporção, `display: block`, `object-fit`,
+  `object-position`, avatares, cards e imagens de capa.
+
+### Layout e responsividade
+
+- [Guia de Flexbox](./docs/guia-flexbox-css.md): apresenta containers,
+  itens, eixos, alinhamento, distribuição de espaço, quebra de linha e
+  exemplos responsivos;
+- [Guia de layout responsivo](./docs/guia-layout-responsivo-css.md): explica
+  layouts fluidos, unidades de medida, viewport, breakpoints, media queries
+  e prevenção de rolagem horizontal.
+
+### Diagnóstico e correção de problemas
+
+- [Guia de depuração com DevTools](./docs/guia-devtools-css.md): apresenta
+  uma sequência para investigar estilos, Box Model, Flexbox, imagens,
+  responsividade e problemas de layout.
+
 
 ## Orientações para as entregas
 
