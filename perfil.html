@@ -1,37 +1,183 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Perfil</title>
-        <link rel="stylesheet" href="./css/reset.css">
-        <link rel="stylesheet" href="./css/global.css">
-        <link rel="stylesheet" href="./css/perfil.css">
-    </head>
-    <body>
-			<header>
-					<h1>Meu Portal de Noticias</h1>
-					<p>Programação, Experiências e Cotidiano</p>
-					<!-- aqui começa o meu menu-->
-					<nav>
-							<ul>
-									<li>
-											<a href="index.html">Programação</a>
-									</li>
-									<li>
-											<a href="hobbies.html">Hobbies</a>
-									</li>
-									<li>
-											<a href="perfil.html">Sobre Mim</a>
-									</li>
-							</ul>
-					</nav>
-			</header>
-        <h1> Perfil</h1>
-        <p> Minhas informações, como redes sociais, trabalho.</p>
-        <footer class="footer">
-            <p>Projeto desenvolvido na disciplina de Desenvolvimento Web I</p>
-            <p>IFC - Campus Araquari</p>
-        </footer>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Perfil</title>
+    <link
+      rel="stylesheet"
+      href="./assets/css/reset.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/global.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/perfil.css"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Meu Portal de Noticias</h1>
+      <p>Programação, Experiências e Cotidiano</p>
+      <!-- aqui começa o meu menu-->
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html">Programação</a>
+          </li>
+          <li>
+            <a href="hobbies.html">Hobbies</a>
+          </li>
+          <li>
+            <a href="perfil.html">Sobre Mim</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="hero-section">
+        <div class="hero-cover"></div>
+
+        <div class="hero-content">
+          <div class="hero-image">
+            <img
+              src="./assets/img/perfil/profile.jpeg"
+              alt="Foto de Cristofer Sousa"
+              class="portfolio-image"
+            />
+          </div>
+
+          <div class="hero-about">
+            <h1>Cristofer Sousa</h1>
+            <h3>Estudante de Redes de Computadores</h3>
+            <p>Araquari, Santa Catarina</p>
+
+            <div class="hero-skills">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>Redes</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- -->
+
+      <section class="profile-content">
+        <!-- coluna principal -->
+        <div class="profile-main">
+          <section class="profile-card">
+            <h2>Sobre Mim</h2>
+            <p>
+              Olá, meu nome é Cristofer Sousa, tenho 42 anos e sou professor do
+              curso de Redes de Computadores no Instituto Federal Catarinense
+              (IFC) - Campus Araquari. Sou apaixonado por tecnologia e estou
+              sempre em busca de aprender coisas novas. Tenho experiência em
+              desenvolvimento web, programação e redes de computadores. Estou
+              sempre disposto a enfrentar desafios e encontrar soluções
+              criativas para problemas complexos.
+            </p>
+
+            <ul
+              style="
+                list-style-type: none;
+                padding: 0;
+                display: flex;
+                gap: 10px;
+              "
+            >
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/cristofer-sousa-08a0b020a/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  LinkedIn
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/cristofer-sousa"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/cristofer.sousa/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Instagram
+                </a>
+              </li>
+            </ul>
+          </section>
+
+          <section class="profile-card">
+            <h2>Formação e trajetória</h2>
+
+            <div class="academic-info">
+              <div class="academic-icon">🎓</div>
+
+              <div>
+                <h3>Redes de Computadores</h3>
+                <p>Instituto Federal Catarinense — Campus Araquari</p>
+              </div>
+            </div>
+
+            <div class="academic-details">
+              <p>
+                <strong>Disciplina:</strong>
+                Desenvolvimento Web I
+              </p>
+
+              <p>
+                <strong>Carga horária:</strong>
+                60 horas
+              </p>
+            </div>
+          </section>
+        </div>
+
+        <!-- Coluna lateral -->
+        <aside class="profile-sidebar">
+          <section class="profile-card">
+            <h2>Competências</h2>
+
+            <ul class="tag-list">
+              <li>Node</li>
+              <li>JavaScript</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Python</li>
+            </ul>
+          </section>
+
+          <section class="profile-card">
+            <h2>Interesses</h2>
+
+            <ul class="interest-list">
+              <li>🏒 Hockey Inline</li>
+              <li>🥩 Churrasco</li>
+              <li>🎵 Músicas</li>
+              <li>🎬 Filmes e séries</li>
+            </ul>
+          </section>
+        </aside>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>Projeto desenvolvido na disciplina de Desenvolvimento Web I</p>
+      <p>IFC - Campus Araquari</p>
+    </footer>
+  </body>
 </html>

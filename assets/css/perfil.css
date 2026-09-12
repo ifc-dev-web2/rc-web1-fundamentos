@@ -1,0 +1,310 @@
+/*tamanho em px=valor em rem×font-size do html
+
+CSS	Cálculo	Resultado
+0.75rem	0,75 × 16	12px
+1rem	1 × 16	16px
+1.25rem	1,25 × 16	20px
+1.5rem	1,5 × 16	24px
+2rem	2 × 16	32px
+2.5rem	2,5 × 16	40px
+
+Para converter pixels em rem:
+
+$$ \text{valor em rem} = \frac{\text{tamanho em px}}{16} $$
+
+Por exemplo, para transformar 24px:
+
+24÷16=1,5rem
+
+*/
+
+:root {
+  --font-size-sm: 0.875rem; /* 14px */
+  --font-size-md: 1rem; /* 16px */
+  --font-size-lg: 1.25rem; /* 20px */
+  --font-size-xl: 1.5rem; /* 24px */
+  --font-size-2xl: 2rem; /* 32px */
+}
+
+body {
+  font-size: var(--font-size-body);
+}
+
+h1 {
+  font-size: var(--font-size-h1);
+}
+
+h2 {
+  font-size: var(--font-size-h2);
+}
+
+h3 {
+  font-size: var(--font-size-h3);
+}
+
+.container {
+  /* Centraliza o conteúdo e define uma largura máxima */
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 0;
+  background-color: #fff;
+}
+
+.hero-section {
+  width: 100%;
+  border: 2px solid #aab1ba;
+  border-radius: 1rem;
+  background-color: #fff;
+}
+
+.hero-cover {
+  width: 100%;
+  height: 30vh;
+  min-height: 150px;
+  max-height: 240px;
+
+  background-image: url('../img/perfil/cover-profile.avif');
+  background-size: cover;
+  background-position: bottom;
+  border-radius: 0.9rem 0.9rem 0 0;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 0 3rem 2rem;
+}
+
+.hero-image {
+  flex-shrink: 1;
+  margin-top: -4rem;
+}
+
+.hero-about {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  padding-top: 1rem;
+}
+
+.hero-about h1,
+.hero-about h3,
+.hero-about p {
+  margin: 0;
+}
+
+.hero-about h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #212529;
+}
+
+.hero-about h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.4;
+  color: #495057;
+}
+
+.hero-about p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #6c757d;
+}
+
+.hero-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+
+.hero-skills span {
+  padding: 0.4rem 1rem;
+  color: #31558a;
+  background-color: #f3f7fd;
+  border: 1px solid #9db7da;
+  border-radius: 2rem;
+}
+
+.portfolio-image {
+  display: block;
+  width: 160px;
+  height: 160px;
+
+  object-fit: cover;
+  border-radius: 50%;
+  border: 6px solid #fff;
+}
+
+.profile-content {
+  display: flex;
+  align-items: stretch;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+/* Coluna maior */
+.profile-main {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Coluna menor */
+.profile-sidebar {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.profile-card {
+  flex: 1;
+  padding: 2rem;
+
+  background-color: #fff;
+  border: 2px solid #adb5bd;
+  border-radius: 1rem;
+}
+
+.profile-card h2 {
+  margin: 0 0 1.5rem;
+  color: #212529;
+}
+
+.profile-card p {
+  margin: 0 0 0.75rem;
+  line-height: 1.6;
+  color: #5f6875;
+}
+
+/*formacao academica */
+
+.academic-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.academic-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 4.5rem;
+  height: 4.5rem;
+  flex-shrink: 0;
+
+  font-size: 2rem;
+  background-color: #e9ecef;
+  border-radius: 0.75rem;
+}
+
+.academic-info h3 {
+  margin: 0 0 0.25rem;
+}
+
+.academic-info p {
+  margin: 0;
+}
+
+.academic-details {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid #dee2e6;
+}
+
+/*tags
+
+O flex-wrap: wrap é importante aqui: quando não houver espaço para todas as competências, elas quebrarão automaticamente para a próxima linha.
+
+*/
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.tag-list li {
+  padding: 0.6rem 1.2rem;
+
+  color: #536273;
+  background-color: #edf0f3;
+  border-radius: 2rem;
+}
+
+.interest-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.interest-list li {
+  padding-bottom: 0.75rem;
+  color: #536273;
+  border-bottom: 1px solid #dee2e6;
+}
+
+@media (max-width: 768px) {
+  .hero-cover {
+    height: 20vh;
+    min-height: 120px;
+  }
+
+  .hero-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 1rem 2rem;
+    text-align: center;
+  }
+
+  .hero-image {
+    margin-top: -4rem;
+  }
+
+  .portfolio-image {
+    width: 140px;
+    height: 140px;
+  }
+
+  .hero-about {
+    align-items: center;
+    padding-top: 0;
+  }
+
+  .hero-skills {
+    justify-content: center;
+  }
+
+  .profile-content {
+    flex-direction: column;
+  }
+
+  .profile-card {
+    padding: 1.5rem;
+  }
+
+  .profile-main {
+    flex: 2;
+  }
+
+  .profile-sidebar {
+    flex: 1;
+  }
+}

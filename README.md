@@ -283,7 +283,7 @@ O cronograma poderá receber ajustes de acordo com o calendário acadêmico, o d
 |  2   | 21/08/2026 | HTML semântico, estrutura de conteúdo, páginas, menu de navegação, links internos, imagens, legendas e datas                                 | ✅ Concluído |
 |  3   | 28/08/2026 | Elementos em bloco e inline, `div`, `span`, Flexbox, medidas, containers, imagens adaptáveis e página de Hobbies                             | ✅ Concluído |
 |  4   | 04/09/2026 | Responsividade, viewport, breakpoints, media queries e adaptação do portal para diferentes tamanhos de tela                                  | ✅ Concluído |
-|  5   | 11/09/2026 | Prática orientada de responsividade, correção do portal, adaptação do menu, perfil, cartões e imagens e utilização do DevTools               | ⏳ Pendente  |
+|  5   | 11/09/2026 | Prática orientada de responsividade, correção do portal, adaptação do menu, perfil, cartões e imagens e utilização do DevTools               | ✅ Concluído |
 |  6   | 18/09/2026 | Formulários HTML, tipos de campos, rótulos, botões, atributos e validações nativas                                                           | ⏳ Pendente  |
 |  7   | 25/09/2026 | Revisão de HTML, CSS, formulários, Flexbox, medidas, responsividade, organização e publicação Web                                            | ⏳ Pendente  |
 |  8   | 02/10/2026 | **N1 — Avaliação individual de HTML e CSS**                                                                                                  | ⏳ Pendente  |
