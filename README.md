@@ -276,36 +276,38 @@ A avaliação considerará o resultado final e a compreensão individual demonst
 
 O cronograma poderá receber ajustes de acordo com o calendário acadêmico, o desenvolvimento da turma e as necessidades identificadas durante as aulas.
 
-| Aula |    Data    | Conteúdo previsto                                                                                                                            |    Status    |
-| :--: | :--------: | -------------------------------------------------------------------------------------------------------------------------------------------- | :----------: |
-|  —   | 07/08/2026 | Recesso acadêmico                                                                                                                            | ✅ Concluído |
-|  1   | 14/08/2026 | Apresentação da disciplina, diagnóstico, introdução à Web, estrutura básica do HTML, CSS inicial, Git, GitHub e publicação pelo GitHub Pages | ✅ Concluído |
-|  2   | 21/08/2026 | HTML semântico, estrutura de conteúdo, páginas, menu de navegação, links internos, imagens, legendas e datas                                 | ✅ Concluído |
-|  3   | 28/08/2026 | Elementos em bloco e inline, `div`, `span`, Flexbox, medidas, containers, imagens adaptáveis e página de Hobbies                             | ✅ Concluído |
-|  4   | 04/09/2026 | Responsividade, viewport, breakpoints, media queries e adaptação do portal para diferentes tamanhos de tela                                  | ✅ Concluído |
-|  5   | 11/09/2026 | Prática orientada de responsividade, correção do portal, adaptação do menu, perfil, cartões e imagens e utilização do DevTools               | ✅ Concluído |
-|  6   | 18/09/2026 | Formulários HTML, tipos de campos, rótulos, botões, atributos e validações nativas                                                           | ⏳ Pendente  |
-|  7   | 25/09/2026 | Revisão de HTML, CSS, formulários, Flexbox, medidas, responsividade, organização e publicação Web                                            | ⏳ Pendente  |
-|  8   | 02/10/2026 | **N1 — Avaliação individual de HTML e CSS**                                                                                                  | ⏳ Pendente  |
-|  9   | 09/10/2026 | Correção comentada da N1, retomada dos conteúdos e atividade prática de reforço                                                              | ⏳ Pendente  |
-|  10  | 16/10/2026 | **N2 — Entrega e apresentação do projeto Web individual de tema livre**                                                                      | ⏳ Pendente  |
-|  11  | 23/10/2026 | Devolutiva dos projetos, correção orientada e aperfeiçoamento das soluções                                                                   | ⏳ Pendente  |
-|  12  | 30/10/2026 | Finalização do primeiro ciclo, revisão dos projetos, resultados e preparação para JavaScript                                                 | ⏳ Pendente  |
-|  13  | 06/11/2026 | Introdução ao JavaScript, scripts, console, variáveis e primeiros comandos                                                                   | ⏳ Pendente  |
-|  14  | 13/11/2026 | Tipos de dados, operadores, comparações, conversões e estruturas condicionais                                                                | ⏳ Pendente  |
-|  —   | 20/11/2026 | Feriado Nacional — Dia da Consciência Negra                                                                                                  |  📅 Feriado  |
-|  15  | 27/11/2026 | Funções, parâmetros, retorno, arrays, métodos básicos, organização do código e introdução ao DOM                                             | ⏳ Pendente  |
-|  16  | 04/12/2026 | DOM, eventos, formulários com JavaScript, integração, revisão e encerramento das atividades regulares                                        | ⏳ Pendente  |
-|  17  | 11/12/2026 | **Recuperação semestral da aprendizagem**                                                                                                    | ⏳ Pendente  |
+Nas aulas concluídas, o título do conteúdo funciona como um link para o respectivo material. Cada diretório reúne o resumo da aula, exemplos, atividades e demais arquivos utilizados.
+
+| Aula |    Data    | Conteúdo e material da aula                                                                               |    Status   |
+| :--: | :--------: | --------------------------------------------------------------------------------------------------------- | :---------: |
+|   —  | 07/08/2026 | Recesso acadêmico                                                                                         | ✅ Concluído |
+|   1  | 14/08/2026 | [Introdução ao Desenvolvimento Web, HTML, CSS, Git, GitHub e publicação](./docs/aulas/aula1/README.md)    | ✅ Concluído |
+|   2  | 21/08/2026 | [HTML semântico, estrutura de conteúdo e navegação entre páginas](./docs/aulas/aula2/README.md)           | ✅ Concluído |
+|   3  | 28/08/2026 | [Página de Hobbies, elementos em bloco e inline e introdução ao Flexbox](./docs/aulas/aula3/README.md)    | ✅ Concluído |
+|   4  | 04/09/2026 | [Flexbox, responsividade, organização do código e fundamentos do CSS](./docs/aulas/aula4/README.md)       | ✅ Concluído |
+|   5  | 11/09/2026 | [Contribuição em projetos, GitHub, licenças de software e empreendedorismo](./docs/aulas/aula5/README.md) | ✅ Concluído |
+|   6  | 18/09/2026 | Formulários HTML, tipos de campos, rótulos, botões, atributos e validações nativas                        |  ⏳ Pendente |
+|   7  | 25/09/2026 | Revisão de HTML, CSS, formulários, Flexbox, responsividade, organização e publicação Web                  |  ⏳ Pendente |
+|   8  | 02/10/2026 | **N1 — Avaliação individual de HTML e CSS**                                                               |  ⏳ Pendente |
+|   9  | 09/10/2026 | Correção comentada da N1, retomada dos conteúdos e atividade prática de reforço                           |  ⏳ Pendente |
+|  10  | 16/10/2026 | **N2 — Entrega e apresentação do projeto Web individual de tema livre**                                   |  ⏳ Pendente |
+|  11  | 23/10/2026 | Devolutiva dos projetos, correção orientada e aperfeiçoamento das soluções                                |  ⏳ Pendente |
+|  12  | 30/10/2026 | Finalização do primeiro ciclo, revisão dos projetos e preparação para JavaScript                          |  ⏳ Pendente |
+|  13  | 06/11/2026 | Introdução ao JavaScript, scripts, console, variáveis e primeiros comandos                                |  ⏳ Pendente |
+|  14  | 13/11/2026 | Tipos de dados, operadores, comparações, conversões e estruturas condicionais                             |  ⏳ Pendente |
+|   —  | 20/11/2026 | Feriado Nacional — Dia da Consciência Negra                                                               |  📅 Feriado |
+|  15  | 27/11/2026 | Funções, parâmetros, retorno, arrays, métodos básicos e introdução ao DOM                                 |  ⏳ Pendente |
+|  16  | 04/12/2026 | DOM, eventos, formulários com JavaScript, integração e revisão                                            |  ⏳ Pendente |
+|  17  | 11/12/2026 | **Recuperação semestral da aprendizagem**                                                                 |  ⏳ Pendente |
 
 ### Legenda do cronograma
 
 | Símbolo | Situação                    |
 | :-----: | --------------------------- |
-|   ✅    | Concluído                   |
-|   🚧    | Em andamento                |
-|   ⏳    | Pendente                    |
-|   📅    | Feriado ou evento acadêmico |
+|    ✅    | Concluído                   |
+|    🚧   | Em andamento                |
+|    ⏳    | Pendente                    |
+|    📅   | Feriado ou evento acadêmico |
 
 ## Uso de Inteligência Artificial
 
@@ -519,19 +521,32 @@ rc-web1-fundamentos/
 │   ├── perfil.css
 │   ├── reset.css
 │   └── styles.css
-├── docs/
-│   ├── aulas/
-│   │   ├── 01-index.md
+docs/
+├── aulas/
+│   ├── aula1/
+│   │   ├── README.md
+│   │   └── 01-index.md
+│   ├── aula2/
+│   │   ├── README.md
 │   │   └── 02-hobbies.md
-│   └── guias/
-│       ├── guia-box-model-css.md
-│       ├── guia-devtools-css.md
-│       ├── guia-flexbox-css.md
-│       ├── guia-fundamentos-css.md
-│       ├── guia-imagens-html-css.md
-│       ├── guia-layout-responsivo-css.md
-│       ├── guia-padronizacao-codigo.md
-│       └── guia-tipografia-css.md
+│   ├── aula3/
+│   │   ├── README.md
+│   │   └── 03-profile.md
+│   ├── aula4/
+│   │   └── README.md
+│   └── aula5/
+│       ├── README.md
+│       ├── PROJETO_TEMA_EDUCACIONAL_GRUPO.md
+│       └── PROJETO_TEMA_LIVRE_INDIVIDUAL.md
+└── guias/
+    ├── guia-box-model-css.md
+    ├── guia-devtools-css.md
+    ├── guia-flexbox-css.md
+    ├── guia-fundamentos-css.md
+    ├── guia-imagens-html-css.md
+    ├── guia-layout-responsivo-css.md
+    ├── guia-padronizacao-codigo.md
+    └── guia-tipografia-css.md
 ├── img/
 │   ├── hobbies/
 │   └── demais imagens do projeto
