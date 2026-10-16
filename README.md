@@ -286,19 +286,19 @@ Nas aulas concluídas, o título do conteúdo funciona como um link para o respe
 |  3   | 28/08/2026 | [Página de Hobbies, elementos em bloco e inline e introdução ao Flexbox](./docs/aulas/aula3/README.md)    | ✅ Concluído |
 |  4   | 04/09/2026 | [Flexbox, responsividade, organização do código e fundamentos do CSS](./docs/aulas/aula4/README.md)       | ✅ Concluído |
 |  5   | 11/09/2026 | [Contribuição em projetos, GitHub, licenças de software e empreendedorismo](./docs/aulas/aula5/README.md) | ✅ Concluído |
-|  6   | 18/09/2026 | Formulários HTML, tipos de campos, rótulos, botões, atributos e validações nativas                        | ✅ Concluído|
-|  7   | 25/09/2026 | Revisão de HTML, CSS, formulários, Flexbox, responsividade, organização e publicação Web                  | ⏳ Pendente  |
-|  8   | 02/10/2026 | **N1 — Avaliação individual de HTML e CSS**                                                               | ⏳ Pendente  |
-|  9   | 09/10/2026 | Correção comentada da N1, retomada dos conteúdos e atividade prática de reforço                           | ⏳ Pendente  |
-|  10  | 16/10/2026 | **N2 — Entrega e apresentação do projeto Web individual de tema livre**                                   | ⏳ Pendente  |
-|  11  | 23/10/2026 | Devolutiva dos projetos, correção orientada e aperfeiçoamento das soluções                                | ⏳ Pendente  |
-|  12  | 30/10/2026 | Finalização do primeiro ciclo, revisão dos projetos e preparação para JavaScript                          | ⏳ Pendente  |
-|  13  | 06/11/2026 | Introdução ao JavaScript, scripts, console, variáveis e primeiros comandos                                | ⏳ Pendente  |
-|  14  | 13/11/2026 | Tipos de dados, operadores, comparações, conversões e estruturas condicionais                             | ⏳ Pendente  |
+|  6   | 18/09/2026 | Formulários HTML, tipos de campos, rótulos, botões, atributos e validações nativas                        | ✅ Concluído |
+|  7   | 25/09/2026 | Revisão de HTML, CSS, formulários, Flexbox, responsividade, organização e publicação Web                  | ✅ Concluído |
+|  8   | 02/10/2026 | **N1 — Avaliação individual de HTML e CSS**                                                               | ✅ Concluído |
+|  -   | 09/10/2026 | SEPE IFC 2026 - EVENTO DO IF                                                                              | ✅ Concluído |
+|  9   | 16/10/2026 | Correção comentada da N1, retomada dos conteúdos e atividade prática de reforço                           | ⏳ Pendente  |
+|  10  | 23/10/2026 | **N2 — Entrega e apresentação do projeto Web individual de tema livre**                                   | ⏳ Pendente  |
+|  11  | 30/10/2026 | Devolutiva dos projetos, correção orientada e aperfeiçoamento das soluções                                | ⏳ Pendente  |
+|  12  | 06/11/2026 | Introdução ao JavaScript, scripts, console, variáveis e primeiros comandos                                | ⏳ Pendente  |
+|  13  | 13/11/2026 | Tipos de dados, operadores, comparações, conversões e estruturas condicionais                             | ⏳ Pendente  |
 |  —   | 20/11/2026 | Feriado Nacional — Dia da Consciência Negra                                                               |  📅 Feriado  |
-|  15  | 27/11/2026 | Funções, parâmetros, retorno, arrays, métodos básicos e introdução ao DOM                                 | ⏳ Pendente  |
-|  16  | 04/12/2026 | DOM, eventos, formulários com JavaScript, integração e revisão                                            | ⏳ Pendente  |
-|  17  | 11/12/2026 | **Recuperação semestral da aprendizagem**                                                                 | ⏳ Pendente  |
+|  14  | 27/11/2026 | Funções, parâmetros, retorno, arrays, métodos básicos e introdução ao DOM                                 | ⏳ Pendente  |
+|  15  | 04/12/2026 | DOM, eventos, formulários com JavaScript, integração e revisão                                            | ⏳ Pendente  |
+|  16  | 11/12/2026 | **Recuperação semestral da aprendizagem**                                                                 | ⏳ Pendente  |
 
 ### Legenda do cronograma
 
